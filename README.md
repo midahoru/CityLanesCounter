@@ -1,4 +1,4 @@
-# 🛣️ CityLaneCounter
+# 🛣️ CityLanesCounter
 
 Query OpenStreetMap via Overpass API, extract `lanes=*` tags to get the **lane counts for every street in a city**
 
