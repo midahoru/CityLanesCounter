@@ -38,14 +38,14 @@ pip install -r requirements.txt
 #### Query OSM
 
 The yaml file has the information to frame the query. If the city, the country and the boundig box define
-and empty zone (e.g. a city in South America and a country name in North America), the query might return nothing.
+and empty pace (e.g. a city in South America and a country in North America), the query might return nothing.
 
 ```bash
-# Query Overpass API and export lane data for a given city. Defaults to Bogotá, Colombia
-python -m osm_pipeline.querylanes
-python -m osm_pipeline.query_lanes --bbox 4.64 -74.09 4.69 -74.06 # Barrios Unidos district
+# Query Overpass API and export lane data for a given city.
+python -m osm_pipeline.query_lanes # Gets the city in the yaml file. 
+python -m osm_pipeline.query_lanes --bbox 4.64 -74.09 4.69 -74.06 # Barrios Unidos district in Bogotá
 python -m osm_pipeline.query_lanes --bbox 4.46 -74.22 4.84 -73.99 # City of Bogotá
-python -m osm_pipeline.query_lanes   --output path/for/the/results/name.gpkg
+python -m osm_pipeline.query_lanes --output path/for/the/results/name.gpkg
 ```
 
 #### Find changes in lanes
