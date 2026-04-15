@@ -1,0 +1,2725 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0729042,
+          4.6695156
+        ]
+      },
+      "properties": {
+        "street": "Calle 74",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0620787,
+          4.6621981
+        ]
+      },
+      "properties": {
+        "street": "Calle 74",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0709072,
+          4.6680027
+        ]
+      },
+      "properties": {
+        "street": "Calle 74",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0796983,
+          4.6522856
+        ]
+      },
+      "properties": {
+        "street": "Avenida Calle 63",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0772788,
+          4.6518472
+        ]
+      },
+      "properties": {
+        "street": "Avenida Calle 63",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0609542,
+          4.6484903
+        ]
+      },
+      "properties": {
+        "street": "Avenida Calle 63",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0648507,
+          4.649593
+        ]
+      },
+      "properties": {
+        "street": "Avenida Calle 63",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.06453,
+          4.6496332
+        ]
+      },
+      "properties": {
+        "street": "Avenida Calle 63",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0603627,
+          4.658413
+        ]
+      },
+      "properties": {
+        "street": "Avenida Calle 72",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0604669,
+          4.6582549
+        ]
+      },
+      "properties": {
+        "street": "Avenida Calle 72",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0606115,
+          4.6686738
+        ]
+      },
+      "properties": {
+        "street": "Carrera 20",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0685348,
+          4.6749217
+        ]
+      },
+      "properties": {
+        "street": "Avenida Calle 80",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0671615,
+          4.6736497
+        ]
+      },
+      "properties": {
+        "street": "Avenida Calle 80",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0667959,
+          4.6728184
+        ]
+      },
+      "properties": {
+        "street": "Avenida Calle 80",
+        "lanes_from": "3",
+        "lanes_to": "4",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0795702,
+          4.6842663
+        ]
+      },
+      "properties": {
+        "street": "Avenida Calle 80",
+        "lanes_from": "4",
+        "lanes_to": "3",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0788667,
+          4.6833935
+        ]
+      },
+      "properties": {
+        "street": "Avenida Calle 80",
+        "lanes_from": "4",
+        "lanes_to": "3",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0685487,
+          4.6745962
+        ]
+      },
+      "properties": {
+        "street": "Avenida Calle 80",
+        "lanes_from": "3",
+        "lanes_to": "4",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0636927,
+          4.6696067
+        ]
+      },
+      "properties": {
+        "street": "Avenida Calle 80",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0634616,
+          4.6689063
+        ]
+      },
+      "properties": {
+        "street": "Avenida Calle 80",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0633729,
+          4.6687954
+        ]
+      },
+      "properties": {
+        "street": "Avenida Calle 80",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0609781,
+          4.6658178
+        ]
+      },
+      "properties": {
+        "street": "Avenida Calle 80",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0758367,
+          4.6649228
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 30",
+        "lanes_from": "3",
+        "lanes_to": "4",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0691947,
+          4.6728534
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 30",
+        "lanes_from": "4",
+        "lanes_to": "3",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0691091,
+          4.6723815
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 30",
+        "lanes_from": "4",
+        "lanes_to": "3",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0688353,
+          4.6726107
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 30",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0664004,
+          4.6742907
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 30",
+        "lanes_from": "3",
+        "lanes_to": "4",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.066692,
+          4.6745382
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 30",
+        "lanes_from": "4",
+        "lanes_to": "2",
+        "delta_lanes": -2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0790466,
+          4.6387821
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 30",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0687486,
+          4.6731874
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 30",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0671181,
+          4.6737257
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 30",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0786337,
+          4.6443259
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 30",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0608759,
+          4.6779348
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 30",
+        "lanes_from": "3",
+        "lanes_to": "4",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0621277,
+          4.6767321
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 30",
+        "lanes_from": "3",
+        "lanes_to": "4",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0794705,
+          4.6372246
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 30",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0608588,
+          4.6667719
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 20",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0600374,
+          4.6682542
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 20",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0609681,
+          4.6752529
+        ]
+      },
+      "properties": {
+        "street": "Calle 87",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0733537,
+          4.6617392
+        ]
+      },
+      "properties": {
+        "street": "Avenida Calle 68",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0841894,
+          4.6749575
+        ]
+      },
+      "properties": {
+        "street": "Avenida Calle 68",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0838443,
+          4.6744486
+        ]
+      },
+      "properties": {
+        "street": "Avenida Calle 68",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0679956,
+          4.6740385
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 50",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0888464,
+          4.6433628
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 50",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0610784,
+          4.6863713
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 50",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0750192,
+          4.648509
+        ]
+      },
+      "properties": {
+        "street": "Diagonal 61C",
+        "lanes_from": "4",
+        "lanes_to": "2",
+        "delta_lanes": -2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0617276,
+          4.6480497
+        ]
+      },
+      "properties": {
+        "street": "Calle 62",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0612028,
+          4.6479033
+        ]
+      },
+      "properties": {
+        "street": "Calle 62",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0624659,
+          4.6471775
+        ]
+      },
+      "properties": {
+        "street": "Calle 61",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0685513,
+          4.6485355
+        ]
+      },
+      "properties": {
+        "street": "Calle 61",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0623419,
+          4.6471106
+        ]
+      },
+      "properties": {
+        "street": "Calle 61",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0614906,
+          4.645516
+        ]
+      },
+      "properties": {
+        "street": "Calle 60",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0626361,
+          4.6434303
+        ]
+      },
+      "properties": {
+        "street": "Calle 57",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0620928,
+          4.6432494
+        ]
+      },
+      "properties": {
+        "street": "Calle 57",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0783547,
+          4.6447646
+        ]
+      },
+      "properties": {
+        "street": "Calle 54",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0785213,
+          4.6445076
+        ]
+      },
+      "properties": {
+        "street": "Calle 54",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0842753,
+          4.6450789
+        ]
+      },
+      "properties": {
+        "street": "Carrera 45",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0830362,
+          4.6438841
+        ]
+      },
+      "properties": {
+        "street": "Calle 53A Bis",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0725153,
+          4.6509663
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 24",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0734462,
+          4.6479716
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 24",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0739754,
+          4.6417448
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 24",
+        "lanes_from": "4",
+        "lanes_to": "3",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0629941,
+          4.671991
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 24",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0723868,
+          4.6510504
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 24",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0695815,
+          4.6590107
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 24",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0634079,
+          4.669271
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 24",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0737184,
+          4.6431371
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 24",
+        "lanes_from": "2",
+        "lanes_to": "4",
+        "delta_lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.062277,
+          4.6764342
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 24",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0632634,
+          4.6707645
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 24",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0626299,
+          4.6761518
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 24",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.072395,
+          4.6516733
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 24",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.062491,
+          4.6751044
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 24",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0624286,
+          4.6755003
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 24",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0676913,
+          4.6622135
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 24",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0737777,
+          4.6477122
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 24",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0626651,
+          4.6740453
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 24",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0629618,
+          4.6722396
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 24",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0633238,
+          4.6700407
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 24",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0728632,
+          4.6613844
+        ]
+      },
+      "properties": {
+        "street": "Carrera 28",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0753583,
+          4.6558521
+        ]
+      },
+      "properties": {
+        "street": "Carrera 28",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0650448,
+          4.6712721
+        ]
+      },
+      "properties": {
+        "street": "Carrera 28",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0646874,
+          4.6724808
+        ]
+      },
+      "properties": {
+        "street": "Carrera 28",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0714825,
+          4.6633504
+        ]
+      },
+      "properties": {
+        "street": "Carrera 28",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.071709,
+          4.6428537
+        ]
+      },
+      "properties": {
+        "street": "Carrera 21",
+        "lanes_from": "4",
+        "lanes_to": "2",
+        "delta_lanes": -2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0713315,
+          4.6449365
+        ]
+      },
+      "properties": {
+        "street": "Carrera 21",
+        "lanes_from": "2",
+        "lanes_to": "4",
+        "delta_lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0714403,
+          4.644333
+        ]
+      },
+      "properties": {
+        "street": "Carrera 21",
+        "lanes_from": "4",
+        "lanes_to": "2",
+        "delta_lanes": -2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0720141,
+          4.6411627
+        ]
+      },
+      "properties": {
+        "street": "Carrera 21",
+        "lanes_from": "4",
+        "lanes_to": "2",
+        "delta_lanes": -2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0610863,
+          4.6483119
+        ]
+      },
+      "properties": {
+        "street": "Carrera 9",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0693029,
+          4.6646223
+        ]
+      },
+      "properties": {
+        "street": "Carrera 27B",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0692442,
+          4.6647141
+        ]
+      },
+      "properties": {
+        "street": "Carrera 27B",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0618902,
+          4.6688989
+        ]
+      },
+      "properties": {
+        "street": "Carrera 22",
+        "lanes_from": "2",
+        "lanes_to": "4",
+        "delta_lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0609681,
+          4.6752529
+        ]
+      },
+      "properties": {
+        "street": "Carrera 22",
+        "lanes_from": "2",
+        "lanes_to": "4",
+        "delta_lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0680419,
+          4.6636705
+        ]
+      },
+      "properties": {
+        "street": "Carrera 26",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0679799,
+          4.663758
+        ]
+      },
+      "properties": {
+        "street": "Carrera 26",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0628609,
+          4.6534818
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 13",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0739408,
+          4.6640609
+        ]
+      },
+      "properties": {
+        "street": "Calle 70",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0762647,
+          4.6657356
+        ]
+      },
+      "properties": {
+        "street": "Calle 70",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0606613,
+          4.648832
+        ]
+      },
+      "properties": {
+        "street": "Carrera 8",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.060207,
+          4.6495599
+        ]
+      },
+      "properties": {
+        "street": "Carrera 8",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0600654,
+          4.6497866
+        ]
+      },
+      "properties": {
+        "street": "Carrera 8",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0604968,
+          4.6490956
+        ]
+      },
+      "properties": {
+        "street": "Carrera 8",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0633831,
+          4.6540178
+        ]
+      },
+      "properties": {
+        "street": "Calle 67",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0898058,
+          4.650064
+        ]
+      },
+      "properties": {
+        "street": "Carrera 57",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0782034,
+          4.6581352
+        ]
+      },
+      "properties": {
+        "street": "Calle 63J",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0766126,
+          4.6545474
+        ]
+      },
+      "properties": {
+        "street": "Calle 63C",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0688668,
+          4.6539836
+        ]
+      },
+      "properties": {
+        "street": "Calle 63D",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.060236,
+          4.6648681
+        ]
+      },
+      "properties": {
+        "street": "Carrera 19A",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0703931,
+          4.6722651
+        ]
+      },
+      "properties": {
+        "street": "Calle 78",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0606044,
+          4.678441
+        ]
+      },
+      "properties": {
+        "street": "Carrera 47",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0620491,
+          4.6842687
+        ]
+      },
+      "properties": {
+        "street": "Calle 95",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0755912,
+          4.6641819
+        ]
+      },
+      "properties": {
+        "street": "Carrera 29C",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0727394,
+          4.6674574
+        ]
+      },
+      "properties": {
+        "street": "Carrera 29C",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0729778,
+          4.667178
+        ]
+      },
+      "properties": {
+        "street": "Carrera 29C",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0707377,
+          4.6572454
+        ]
+      },
+      "properties": {
+        "street": "Calle 66",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0617744,
+          4.6519972
+        ]
+      },
+      "properties": {
+        "street": "Calle 66",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0817503,
+          4.683675
+        ]
+      },
+      "properties": {
+        "street": "Carrera 68C",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.082199,
+          4.6837707
+        ]
+      },
+      "properties": {
+        "street": "Carrera 68C",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0760156,
+          4.665747
+        ]
+      },
+      "properties": {
+        "street": "Carrera 50",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0627091,
+          4.6590955
+        ]
+      },
+      "properties": {
+        "street": "Calle 71A",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0636262,
+          4.6596777
+        ]
+      },
+      "properties": {
+        "street": "Calle 71A",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0652659,
+          4.6613466
+        ]
+      },
+      "properties": {
+        "street": "Diagonal 71A Bis",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0668008,
+          4.6821988
+        ]
+      },
+      "properties": {
+        "street": "Carrera 60A",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0608657,
+          4.6806946
+        ]
+      },
+      "properties": {
+        "street": "Calle 93",
+        "lanes_from": "2",
+        "lanes_to": "4",
+        "delta_lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0630848,
+          4.6723052
+        ]
+      },
+      "properties": {
+        "street": "Calle 84",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0827288,
+          4.6871285
+        ]
+      },
+      "properties": {
+        "street": "Carrera 69B",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0778919,
+          4.6808028
+        ]
+      },
+      "properties": {
+        "street": "Carrera 64",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0798568,
+          4.6857595
+        ]
+      },
+      "properties": {
+        "street": "Carrera 68D",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0624934,
+          4.6649998
+        ]
+      },
+      "properties": {
+        "street": "Carrera 20C",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0609663,
+          4.6640345
+        ]
+      },
+      "properties": {
+        "street": "Calle 76",
+        "lanes_from": "2",
+        "lanes_to": "4",
+        "delta_lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0617067,
+          4.664507
+        ]
+      },
+      "properties": {
+        "street": "Calle 76",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0701322,
+          4.6704282
+        ]
+      },
+      "properties": {
+        "street": "Calle 76",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0624934,
+          4.6649998
+        ]
+      },
+      "properties": {
+        "street": "Calle 76",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0738744,
+          4.6471142
+        ]
+      },
+      "properties": {
+        "street": "Transversal 25",
+        "lanes_from": "4",
+        "lanes_to": "2",
+        "delta_lanes": -2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0632085,
+          4.6838486
+        ]
+      },
+      "properties": {
+        "street": "Carrera 56",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0634146,
+          4.6834618
+        ]
+      },
+      "properties": {
+        "street": "Carrera 56",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0694872,
+          4.6426033
+        ]
+      },
+      "properties": {
+        "street": "Diagonal 54",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0697158,
+          4.6427439
+        ]
+      },
+      "properties": {
+        "street": "Diagonal 54",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0615504,
+          4.6592578
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 15",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0601881,
+          4.6489081
+        ]
+      },
+      "properties": {
+        "street": "Calle 64",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0617661,
+          4.6498669
+        ]
+      },
+      "properties": {
+        "street": "Calle 64",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0652984,
+          4.6520004
+        ]
+      },
+      "properties": {
+        "street": "Calle 64",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0662721,
+          4.6525852
+        ]
+      },
+      "properties": {
+        "street": "Calle 64",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0697658,
+          4.6549316
+        ]
+      },
+      "properties": {
+        "street": "Calle 64",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0642001,
+          4.6513548
+        ]
+      },
+      "properties": {
+        "street": "Calle 64",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0633766,
+          4.6508403
+        ]
+      },
+      "properties": {
+        "street": "Calle 64",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.062222,
+          4.6501429
+        ]
+      },
+      "properties": {
+        "street": "Calle 64",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0615723,
+          4.6442774
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 7",
+        "lanes_from": "4",
+        "lanes_to": "3",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0612932,
+          4.6451879
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 7",
+        "lanes_from": "3",
+        "lanes_to": "4",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0685326,
+          4.6488988
+        ]
+      },
+      "properties": {
+        "street": "Carrera 18",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0676164,
+          4.6502017
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 17",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0664473,
+          4.6551424
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 17",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0787004,
+          4.6405351
+        ]
+      },
+      "properties": {
+        "street": "Calle 51",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.075639,
+          4.6400142
+        ]
+      },
+      "properties": {
+        "street": "Calle 51",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0612042,
+          4.6652882
+        ]
+      },
+      "properties": {
+        "street": "Carrera 20B",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0635664,
+          4.6633236
+        ]
+      },
+      "properties": {
+        "street": "Diagonal 74 Bis",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.062784,
+          4.6840472
+        ]
+      },
+      "properties": {
+        "street": "Transversal 55",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0761519,
+          4.6657975
+        ]
+      },
+      "properties": {
+        "street": "Transversal 55",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0822625,
+          4.6885691
+        ]
+      },
+      "properties": {
+        "street": "Carrera 69H",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0862697,
+          4.6641893
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 60",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0871778,
+          4.6621972
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 60",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0706618,
+          4.6891131
+        ]
+      },
+      "properties": {
+        "street": "Carrera 66",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.071325,
+          4.6888957
+        ]
+      },
+      "properties": {
+        "street": "Carrera 67",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0710049,
+          4.6898336
+        ]
+      },
+      "properties": {
+        "street": "Carrera 67",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.068926,
+          4.6822669
+        ]
+      },
+      "properties": {
+        "street": "Transversal 60C",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.069097,
+          4.6820802
+        ]
+      },
+      "properties": {
+        "street": "Transversal 60C",
+        "lanes_from": "2",
+        "lanes_to": "1",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0717502,
+          4.6898289
+        ]
+      },
+      "properties": {
+        "street": "Carrera 68A",
+        "lanes_from": "1",
+        "lanes_to": "2",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0756232,
+          4.6459042
+        ]
+      },
+      "properties": {
+        "street": "Transversal 28",
+        "lanes_from": "2",
+        "lanes_to": "4",
+        "delta_lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0754242,
+          4.6457303
+        ]
+      },
+      "properties": {
+        "street": "Transversal 28",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0748816,
+          4.6465952
+        ]
+      },
+      "properties": {
+        "street": "Transversal 28",
+        "lanes_from": "3",
+        "lanes_to": "4",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.074908,
+          4.6462161
+        ]
+      },
+      "properties": {
+        "street": "Transversal 28",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0708269,
+          4.671764
+        ]
+      },
+      "properties": {
+        "street": "Diagonal 76 Bis",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0606976,
+          4.6775198
+        ]
+      },
+      "properties": {
+        "street": "Diagonal 92",
+        "lanes_from": "3",
+        "lanes_to": "2",
+        "delta_lanes": -1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0621475,
+          4.6511817
+        ]
+      },
+      "properties": {
+        "street": "Avenida Carrera 11",
+        "lanes_from": "2",
+        "lanes_to": "3",
+        "delta_lanes": 1
+      }
+    }
+  ]
+}

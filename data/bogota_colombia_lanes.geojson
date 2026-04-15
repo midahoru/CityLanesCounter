@@ -6017,7 +6017,7 @@
       "properties": {
         "osm_id": 24313856,
         "highway": "residential",
-        "name": "Transversal 23",
+        "name": "Carrera 23",
         "name_es": null,
         "lanes": "2",
         "lanes_forward": null,
@@ -6027,7 +6027,7 @@
         "maxspeed": null,
         "surface": "asphalt",
         "width": null,
-        "_all_tags": "{\"alt_name\": \"Carrera 23\", \"highway\": \"residential\", \"lanes\": \"2\", \"name\": \"Transversal 23\", \"surface\": \"asphalt\"}"
+        "_all_tags": "{\"alt_name\": \"Transversal 23\", \"highway\": \"residential\", \"lanes\": \"2\", \"name\": \"Carrera 23\", \"surface\": \"asphalt\"}"
       }
     },
     {
@@ -18216,6 +18216,10 @@
           [
             -74.06717,
             4.6907001
+          ],
+          [
+            -74.0676016,
+            4.6898504
           ],
           [
             -74.067618,
@@ -30653,7 +30657,7 @@
       "properties": {
         "osm_id": 89759659,
         "highway": "residential",
-        "name": "Transversal 23",
+        "name": "Carrera 23",
         "name_es": null,
         "lanes": "2",
         "lanes_forward": null,
@@ -30663,7 +30667,7 @@
         "maxspeed": null,
         "surface": "asphalt",
         "width": null,
-        "_all_tags": "{\"alt_name\": \"Carrera 23\", \"hgv\": \"no\", \"highway\": \"residential\", \"lanes\": \"2\", \"name\": \"Transversal 23\", \"surface\": \"asphalt\"}"
+        "_all_tags": "{\"alt_name\": \"Transversal 23\", \"hgv\": \"no\", \"highway\": \"residential\", \"lanes\": \"2\", \"name\": \"Carrera 23\", \"surface\": \"asphalt\"}"
       }
     },
     {
@@ -32509,7 +32513,7 @@
       "properties": {
         "osm_id": 89760011,
         "highway": "residential",
-        "name": "Transversal 23",
+        "name": "Carrera 23",
         "name_es": null,
         "lanes": null,
         "lanes_forward": null,
@@ -32519,7 +32523,7 @@
         "maxspeed": "30",
         "surface": "asphalt",
         "width": null,
-        "_all_tags": "{\"alt_name\": \"Carrera 23\", \"highway\": \"residential\", \"maxspeed\": \"30\", \"name\": \"Transversal 23\", \"surface\": \"asphalt\"}"
+        "_all_tags": "{\"alt_name\": \"Transversal 23\", \"highway\": \"residential\", \"maxspeed\": \"30\", \"name\": \"Carrera 23\", \"surface\": \"asphalt\"}"
       }
     },
     {
@@ -92378,6 +92382,10 @@
             4.6889843
           ],
           [
+            -74.0627701,
+            4.6886691
+          ],
+          [
             -74.0627702,
             4.6886243
           ]
@@ -93861,57 +93869,6 @@
         "surface": "asphalt",
         "width": null,
         "_all_tags": "{\"alt_name\": \"Autopista Norte;Avenida Paseo de los Libertadores;Carrera 20\", \"highway\": \"trunk\", \"lanes\": \"5\", \"maxspeed\": \"60\", \"name\": \"Avenida Carrera 20\", \"oneway\": \"yes\", \"surface\": \"asphalt\"}"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -74.0606782,
-            4.6648956
-          ],
-          [
-            -74.0605321,
-            4.6656764
-          ],
-          [
-            -74.0605227,
-            4.6657268
-          ],
-          [
-            -74.0604013,
-            4.6663629
-          ],
-          [
-            -74.0603588,
-            4.6666027
-          ],
-          [
-            -74.0602658,
-            4.6670458
-          ],
-          [
-            -74.0601923,
-            4.667481
-          ]
-        ]
-      },
-      "properties": {
-        "osm_id": 1018285308,
-        "highway": "primary",
-        "name": "Avenida Carrera 20",
-        "name_es": null,
-        "lanes": "2",
-        "lanes_forward": null,
-        "lanes_backward": null,
-        "turn_lanes": null,
-        "oneway": "yes",
-        "maxspeed": "50",
-        "surface": "asphalt",
-        "width": null,
-        "_all_tags": "{\"alt_name\": \"Autopista Norte;Avenida Paseo de los Libertadores;Carrera 20\", \"highway\": \"primary\", \"lanes\": \"2\", \"maxspeed\": \"50\", \"name\": \"Avenida Carrera 20\", \"oneway\": \"yes\", \"surface\": \"asphalt\"}"
       }
     },
     {
@@ -107726,6 +107683,10 @@
             4.6882444
           ],
           [
+            -74.0628047,
+            4.6882322
+          ],
+          [
             -74.0627578,
             4.6882188
           ],
@@ -113383,6 +113344,10 @@
             4.6742207
           ],
           [
+            -74.0873917,
+            4.6748299
+          ],
+          [
             -74.0873341,
             4.6749275
           ],
@@ -117540,6 +117505,10 @@
           [
             -74.0620831,
             4.6883341
+          ],
+          [
+            -74.0625311,
+            4.6884649
           ],
           [
             -74.0625826,
@@ -121787,37 +121756,6 @@
         "surface": "asphalt",
         "width": null,
         "_all_tags": "{\"alt_name\": \"Avenida Paseo del Country\", \"cycleway:both\": \"no\", \"highway\": \"residential\", \"lanes\": \"2\", \"name\": \"Carrera 15\", \"surface\": \"asphalt\"}"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -74.0607207,
-            4.6646946
-          ],
-          [
-            -74.0606782,
-            4.6648956
-          ]
-        ]
-      },
-      "properties": {
-        "osm_id": 1494502233,
-        "highway": "primary",
-        "name": "Avenida Carrera 20",
-        "name_es": null,
-        "lanes": "2",
-        "lanes_forward": null,
-        "lanes_backward": null,
-        "turn_lanes": null,
-        "oneway": "yes",
-        "maxspeed": "50",
-        "surface": "asphalt",
-        "width": null,
-        "_all_tags": "{\"access\": \"no\", \"alt_name\": \"Autopista Norte;Avenida Paseo de los Libertadores;Carrera 20\", \"highway\": \"primary\", \"lanes\": \"2\", \"maxspeed\": \"50\", \"name\": \"Avenida Carrera 20\", \"oneway\": \"yes\", \"surface\": \"asphalt\"}"
       }
     },
     {

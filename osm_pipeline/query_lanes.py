@@ -1,22 +1,43 @@
 """
-osm_pipeline/query_lines.py
+osm_pipeline/query_lanes.py
 ---------------------
 Query the Overpass API for all roads with lane data in a city or a bounding box.
 Saves result as GeoJSON.
-If no arguments are provided, defaults to Bogotá's bounding box.
+Receives as arguments:
+    - output: the output path
+    - city: the city to query, 
+    - country: the country the city belongs to
+    - bbox: bounding box of the area of interest
+    - timeout: timeout for the query
+If no arguments are provided, it gets the inputs defined in the configs/settings.yaml file.
+A missmatch between the city name, the country and the bounding box can lead to an empty query.   
 
 Usage:
-    python osm_pipeline/query_lines.py --city Bogotá --country Colombia 
-    python osm_pipeline/query_lines.py --bbox 40.4774,-74.2591,40.9176,-73.7004
+    python -m osm_pipeline.query_lanes.py --city Bogota --country Colombia 
+    python -m osm_pipeline.query_lanes.py --bbox 4.64 -74.09 4.69 -74.06
 """
 
 import argparse
 import json
 import time
 from pathlib import Path
-from unidecode import unidecode
 
 import requests
+from unidecode import unidecode
+
+from configs import get_settings
+from configs.constants import OVERPASS_URL
+
+# Getss input to frame the query
+settings = get_settings()
+CITY_NAME    = settings["city"]["name"]
+CITY_COUNTRY = settings["city"]["country"]
+CITY_BBOX    = (
+    settings["city"]["bbox"]["south"],
+    settings["city"]["bbox"]["west"],
+    settings["city"]["bbox"]["north"],
+    settings["city"]["bbox"]["east"],
+)
 
 def build_query(city: str, country: str, bbox: tuple[float, float, float, float], time_out: int=600) -> str:
     """Insert city,country and bounding box into Overpass query template."""
@@ -118,53 +139,62 @@ def overpass_to_geojson(data: dict) -> dict:
     }
     return geojson
 
-# Overpass API endpoint
-OVERPASS_URL = "https://overpass-api.de/api/interpreter"
-
-# Build query
-# City's bounding box (extreme points defining a circumscribed rectangle): 
-# south, west, north, east
-# CITY_BBOX = (4.46, -74.22, 4.84, -73.99) # Bogotá's bounding box
-CITY_BBOX = (4.64, -74.09, 4.69, -74.06) # Test with Barrios Unidos district
-CITY_NAME = "Bogotá"
-CITY_COUNTRY = "Colombia"
 
 def main():
-    # TODO: extend to other cities or bboxes
-    parser = argparse.ArgumentParser(description="Query OSM lane data for Bogotá")
-    parser.add_argument("--output", default=f"./data/{unidecode(CITY_NAME).lower()}_{unidecode(CITY_COUNTRY).lower()}_lanes.geojson")
-    parser.add_argument("--city", default=CITY_NAME, help="City name for query")
-    parser.add_argument("--country", default=CITY_COUNTRY, help="Country name for query")
-    parser.add_argument("--bbox", nargs=4, type=float,
+    # Argument parser
+    parser = argparse.ArgumentParser(description=f"Query OSM lane data for {CITY_NAME}, {CITY_COUNTRY}")
+    parser.add_argument("--output", 
+                        default=f"./data/{unidecode(CITY_NAME).lower()}_{unidecode(CITY_COUNTRY).lower()}_lanes.geojson",
+                        help="Output file path for GeoJSON")
+    parser.add_argument("--city",
+                        type=str,
+                        default=CITY_NAME,
+                        help="City name for query")
+    parser.add_argument("--country",
+                        type=str,
+                        default=CITY_COUNTRY,
+                        help="Country name for query")
+    parser.add_argument("--bbox",
+                        nargs=4,
+                        type=float,
                         metavar=("SOUTH", "WEST", "NORTH", "EAST"),
                         default=list(CITY_BBOX),
                         help="Bounding box to query")
-    parser.add_argument("--timeout", type=int, default=600, help="Overpass query timeout in seconds")
+    parser.add_argument("--timeout",
+                        type=int,
+                        default=600,
+                        help="Overpass query timeout in seconds")
     args = parser.parse_args()
 
+    # Create dir if it doesn't exist
     output_path = Path(args.output)
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
+    # Normalize city and country names to ASCII for consistent querying
     city = unidecode(args.city)
     country = unidecode(args.country)
 
+    # Bounding box for the query
     bbox = tuple(args.bbox)
+
+    # Creates the query
     query = build_query(city, country, bbox)
-
     print(f"[query] City: {city}, Country: {country}, Bounding box: {bbox}")
-    data = run_query(query)
 
+    # Runs the query
+    data = run_query(query)
     total = len([e for e in data["elements"] if e["type"] == "way"])
     print(f"[query] Retrieved {total} road segments from OSM")
 
+    # Create the result as geojson
     geojson = overpass_to_geojson(data)
     with_lanes = sum(1 for f in geojson["features"] if f["properties"]["lanes"])
     print(f"[query] {with_lanes}/{total} segments have 'lanes' tag "
           f"({100 * with_lanes / total:.1f}%)")
 
+    # Saves geojson
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(geojson, f, ensure_ascii=False, indent=2)
-
     print(f"[query] Saved → {output_path}")
 
 
