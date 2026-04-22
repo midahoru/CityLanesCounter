@@ -2,10 +2,10 @@ city:
   name: "Bogota"
   country: "Colombia"
   bbox:
-    south: 4.64
-    west: -74.09
-    north: 4.69
-    east: -74.06
+    south: 4.46
+    west: -74.22
+    north: 4.84
+    east: -73.99
 
 query:
   timeout: 600

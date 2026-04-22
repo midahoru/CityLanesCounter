@@ -38,22 +38,39 @@ CITY_BBOX    = (
     settings["city"]["bbox"]["north"],
     settings["city"]["bbox"]["east"],
 )
+QUERY_TIME_OUT = settings["query"]["timeout"]
+HEADERS = {
+    "User-Agent": "CityLanesCounter/1.0 (public-street-network-research; https://github.com/midahoru/CityLanesCounter.git)",
+    "Accept": "application/json",
+}
 
-def build_query(city: str, country: str, bbox: tuple[float, float, float, float], time_out: int=600) -> str:
-    """Insert city,country and bounding box into Overpass query template."""
-    south, west, north, east = bbox
+def build_query(city: str | None = None, country: str | None = None,
+    bbox: tuple[float, float, float, float] | None = None, time_out: int = 600) -> str:
+    """
+    Build an Overpass query based on available location inputs.
+    Priority: bbox > city (+ optional country)
+    """
+    if bbox:
+        south, west, north, east = bbox
+        spatial_filter = f"({south},{west},{north},{east})"
+        area_setup = ""
+    elif city:
+        area_name = f"{city},{country}" if country else city
+        area_setup = f'{{{{geocodeArea:{area_name}}}}}->.searchArea;\n'
+        spatial_filter = "(area.searchArea)"
+    else:
+        raise ValueError("Must provide either bbox or city.")
+
     return f"""
-            [out:json][timeout:{time_out}];
-            (
-                // Query all highways within {city},{country}
-                way["highway"~"^(motorway|trunk|primary|secondary|tertiary|unclassified|residential)$"]
-                ({south},{west},{north},{east});
-            );
-            out body geom;
-            """
+    [out:json][timeout:{time_out}];
+    {area_setup}(
+        way["highway"~"^(motorway|trunk|primary|secondary|tertiary|unclassified|residential)$"]{spatial_filter};
+    );
+    out body geom;
+    """
 
 
-def run_query(query: str, time_out: int = 600, retries: int = 3) -> dict:
+def run_query(query: str, time_out: int = 600, header: str=None, retries: int = 3) -> dict:
     """POST query to Overpass API with retry logic."""
     for attempt in range(retries):
         try:
@@ -62,6 +79,7 @@ def run_query(query: str, time_out: int = 600, retries: int = 3) -> dict:
                 OVERPASS_URL,
                 data={"data": query},
                 timeout=time_out,
+                headers=header if header else None
             )
             response.raise_for_status()
             return response.json()
@@ -162,7 +180,7 @@ def main():
                         help="Bounding box to query")
     parser.add_argument("--timeout",
                         type=int,
-                        default=600,
+                        default=QUERY_TIME_OUT,
                         help="Overpass query timeout in seconds")
     args = parser.parse_args()
 
@@ -171,18 +189,21 @@ def main():
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
     # Normalize city and country names to ASCII for consistent querying
-    city = unidecode(args.city)
-    country = unidecode(args.country)
+    city = unidecode(args.city) if args.city else None
+    country = unidecode(args.country) if args.country else None
 
     # Bounding box for the query
-    bbox = tuple(args.bbox)
+    bbox = tuple(args.bbox) if args.bbox else None
+
+    # Timeout
+    tout = args.timeout
 
     # Creates the query
-    query = build_query(city, country, bbox)
+    query = build_query(city, country, bbox, tout)
     print(f"[query] City: {city}, Country: {country}, Bounding box: {bbox}")
 
     # Runs the query
-    data = run_query(query)
+    data = run_query(query, tout, HEADERS)
     total = len([e for e in data["elements"] if e["type"] == "way"])
     print(f"[query] Retrieved {total} road segments from OSM")
 
