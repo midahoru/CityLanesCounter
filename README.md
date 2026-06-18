@@ -14,7 +14,6 @@ citylanescounter/
 │
 ├── osm_pipeline/
 │   ├── query_lanes.py                # Overpass API query. Returns a GeoJSON
-│   ├── qa_lanes_info.py              # Improve lane data quality (#TODO)
 │   ├── find_lanes_changes.py         # Find the points where there the number of lanes changes
 │
     ├── data/                         # Stores the resulting data
